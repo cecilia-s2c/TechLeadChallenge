@@ -48,7 +48,7 @@ Make a mockup with a proposal of what elements should be integrated, here an exa
 
 There is no limit on the detail or tools used
 
-Deliverable: Add to the "Step3" folder the image built.
+Deliverable: Add a "Step3" folder with the image built.
 
 
 ## Step 4: Analysis
@@ -61,7 +61,7 @@ The only two options are Jekyll and HUGO
 
 Important note: because safe2choose is a project developed with Wordpress there is very little chance of being able to migrate the content from one side to another, the most likely is that the team will have to copy and paste each page of the site manually.
 
-Deliverable: Add to the "Step4" folder a README file with the analysis
+Deliverable: Add a "Step4" folder with a README file containing the analysis
 
 ## Step 5: Work plan
 Considering the new functionalities of the previous step, define a work plan, take care of the following details:
@@ -76,7 +76,7 @@ Indicate the materials you consider required for each task.
 
 There is no limit on the use of tools.
 
-Deliverable: Upload to the "Step5" folder the work plan.
+Deliverable: Upload a "Step5" folder with the work plan.
     
 ## Step 6: Submission
 
