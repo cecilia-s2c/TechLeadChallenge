@@ -23,8 +23,8 @@ Both HUGO and Jekyll are Static Site Generators.
 All in one Binary for installation.
 
 * Extensibility
-	** Plenty of built-in features gives advantage to HUGO. But lacks on plugin support. Adding custom functionality is questionable.
-	** Supports external data which can be pulled from REST APIs. 
+  ** Plenty of built-in features gives advantage to HUGO. But lacks on plugin support. Adding custom functionality is questionable.
+  ** Supports external data which can be pulled from REST APIs. 
 
 * Migration from Wordpress
 	** Third party tools available to migrate from wordpress.
