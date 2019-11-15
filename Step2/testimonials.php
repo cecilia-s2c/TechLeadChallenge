@@ -38,7 +38,7 @@ Template Name: Testimonials Page
 						<?php
 							$testimonials_args = array (
 								'post_type' => 'testimonials',
-								'posts_per_page' => -1,
+								'posts_per_page' => -1, // This will display all the posts.
 								'orderby' => 'date',
 								'order' => 'DESC'
 							);
@@ -50,12 +50,12 @@ Template Name: Testimonials Page
 									?>
 										<div class="quote" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
 											<blockquote class="testimonials-text" itemprop="reviewBody">
-												<p><?php the_content(); ?></p>
+												<p><?php wp_trim_words(the_content(), 100); ?></p>
 												<hr>
 												<p><i><?php the_date(); ?></i></p>
 											</blockquote>
 											<cite class="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-												<span itemprop="name"><?php the_title(); ?></span>
+												<span itemprop="name"><a href="<?php get_permalink(); ?>"> <?php the_title(); ?> </a></span>
 											</cite><!--/.author-->
 										</div><!-- End .quote -->
 									<?php } ?>

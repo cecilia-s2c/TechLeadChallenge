@@ -1,6 +1,14 @@
 <?php
 add_filter('gform_register_init_scripts', 'gform_display_weeks', 10, 2);
 function gform_display_weeks($form) {
+/*
+ var vals stores Gravity Form fields and messages in different languages.
+
+ The script calculates pregnancy based on the LMP date input by the user.
+
+ Depending on the calculations it will display a warning message, i.e. tenWeekReminder and enable or disable the  proceed button.
+*/
+
 $script = <<<EOT
   (function($){
 var vals = {
@@ -337,7 +345,17 @@ function bones_register_sidebars() {
     'before_title' => '<h2 class="h3 module__title">',
     'after_title' => '</h2>',
   ));
-  
+
+  // Sidebar for advertising
+  register_sidebar(array(
+    'id' => 'sidebar-ads',
+    'name' => __( 'Ads Sidebar', 'safe2choose-test' ),
+    'description' => __( 'This sidebar will display ads', 'safe2choose-test' ),
+    'before_widget' => '<div id="%1$s" class="module module--primary cf %2$s">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3 class="h3 module__title">',
+    'after_title' => '</h3>',
+  ));
 } // don't remove this bracket!
 /* DON'T DELETE THIS CLOSING TAG */ 
 ?>
