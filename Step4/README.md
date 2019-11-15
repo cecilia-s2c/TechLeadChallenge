@@ -11,7 +11,8 @@ Both HUGO and Jekyll are Static Site Generators.
 	* Plenty of plugins available in the community.
 
 * Migration from Wordpress
-	* Third party tools available to migrate from wordpress.
+	* Third party tools available to migrate from wordpress
+	* Migration is not as straight forward as it is to HUGO.
 
 * Performance
 	* Build speed is slow for content heavy websites. 
@@ -28,6 +29,9 @@ All in one Binary for installation.
 
 * Migration from Wordpress
   * Third party tools available to migrate from wordpress.
+  	* wordpress-to-hugo-exporter 
+  	* exitwp-for-hugo
+  	* Also supports conversion from Jekyll using jekyll import command in HUGO 
 
 * Performance
 	* Fast builds
