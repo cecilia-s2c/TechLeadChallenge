@@ -1,4 +1,4 @@
-# Interfaces for Comparison
+# Interface for Comparison
 
 ## Comparison Step 1 
 * User plays with the filters in the left side-bar, appropriate method options are listed on the right.
